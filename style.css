@@ -22,8 +22,22 @@ body {
     PADDING: 10PX;
 }
 
-#sales-div, #ops-div {
+#ops-div {
     height: 80vh;
+    width: 85vw;
+    margin: auto;
+    margin-bottom: 15px;
+    box-shadow: lightgrey 2px 2px 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+
+}
+
+#sales-div {
+    height: 100vh;
     width: 85vw;
     margin: auto;
     margin-bottom: 15px;
